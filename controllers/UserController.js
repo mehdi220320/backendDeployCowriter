@@ -1,5 +1,5 @@
 require("dotenv").config();
-const UserService = require("../services/userService");
+const UserService = require("../services/UserService");
 const { UserModel } = require("../models/User");
 class UserController {
     static async getUserByEmail(email) {
