@@ -9,6 +9,7 @@ const roomRoutes = require("./routes/roomRoutes");
 const bookRoutes = require("./routes/bookRoutes");
 const textRoutes = require("./routes/text.routes");
 const chapterRoutes = require("./routes/chapterRoutes");
+const path = require("path");
 
 const app = express();
 // Middleware
