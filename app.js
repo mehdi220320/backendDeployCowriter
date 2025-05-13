@@ -34,7 +34,8 @@ app.use('/auth', authRoutes);
 app.use("/rooms", roomRoutes);
 app.use("/books", bookRoutes);
 app.use("/chapters", chapterRoutes);
-app.use('/uploads', express.static('uploads'));
 app.use("/api",textRoutes);
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 
 module.exports = app;
